@@ -4,8 +4,8 @@
 
 To automatically sync a folder from an Ubuntu server, you can use a tool such as rsync. Here are the steps:
 
-Install rsync:
-1. sudo apt-get update && sudo apt-get install rsync<br>
+1. Install rsync: <br>
+sudo apt-get update && sudo apt-get install rsync<br>
 2. Create the folder you want to sync on the source server<br>
 3. On the destination server, create a directory to store the synchronized data<br>
 4. Run the rsync command with the appropriate options. Here is an example:<br>
